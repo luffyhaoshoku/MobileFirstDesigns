@@ -3,6 +3,47 @@
     nav li{
         display:inline-block;
         width: 45%;
+        /*border-radius: 25px;*/
     }
     
+}
+
+@media only screen and (min-width:1026px)
+{
+    nav li{
+        width:auto;
+        padding: 0 0;
+        float:center;
+        /*border-radius: 25px;*/
+        
+    }
+
+    nav ul{
+        padding: 0;
+        /*border-radius: 25px;*/
+    }
+
+    nav{
+        float:right;
+        width:70%
+    }
+
+    header img{
+        display:inline-block;
+        max-width: 30%;
+    }
+
+    main > article.grid {
+        background-color: #f1f1f1;
+        float: left;
+        margin: 1%;
+        width: 48%;
+        height: 300px;
+        overflow-y: scroll;
+    }
+
+    h1{
+        clear:both; /*floating element piushed below and right elements*/
+    }
+
 }
