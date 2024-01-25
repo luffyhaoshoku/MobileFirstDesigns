@@ -13,6 +13,11 @@ header img {
     /*float: left;*/
     height: 3em;
     /*z-index: 500;*/
+    
+}
+
+/*making new header for background colour*/
+header{
     background-color: #005BAB;
 }
 
@@ -23,11 +28,11 @@ nav {
     /*padding: 0 20%;*/
     /*position: fixed;
     top: 0;
-    left: 0;*/
-    z-index: 499;
+    left: 0;
+    z-index: 499;*/
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 nav ul {
